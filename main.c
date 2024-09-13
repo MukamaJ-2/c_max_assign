@@ -4,7 +4,7 @@ Initialize a[] = {55, 1, 99, 74, 60, 18}
 Set m = a[0]
 Set i = 1
 while i < 6
-    IF a[i] > m then
+    if a[i] > m then
         m = a[i]
     end if
     i = i + 1
