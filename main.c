@@ -1,5 +1,5 @@
 /* START
-Initialize a[] = {25, 1, 99, 74, 60, 18}
+Initialize a[] = {55, 1, 99, 74, 60, 18}
 Set m = a[0]
 Set i = 1
 WHILE i < 6
@@ -12,9 +12,9 @@ PRINT "Max:", m
 END */
 #include <stdio.h>
 
-  int main() {
-      int a[] = {25, 1, 99, 74, 60, 18}, m = a[0], i = 1;
-      for (; i < 6; i++)
-          if (a[i] > m) m = a[i];
-      printf("Max: %d\n", m);
-  }
+int main() {
+    int a[] = {55, 1, 99, 74, 60, 18}, m = a[0], i = 1;
+    for (; i < 6; i++)
+        if (a[i] > m) m = a[i];
+    printf("Max: %d\n", m);
+}
