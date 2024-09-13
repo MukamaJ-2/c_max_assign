@@ -1,4 +1,5 @@
 /*
+JOSEPH MUKAMA S23B23/036  B24267
 
 Initialize a[] = {55, 1, 99, 74, 60, 18}
 Set m = a[0]
