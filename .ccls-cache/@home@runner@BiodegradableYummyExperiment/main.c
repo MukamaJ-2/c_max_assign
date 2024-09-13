@@ -1,20 +1,23 @@
-/* START
+/*
+
 Initialize a[] = {55, 1, 99, 74, 60, 18}
 Set m = a[0]
 Set i = 1
-WHILE i < 6
-    IF a[i] > m THEN
+while i < 6
+    IF a[i] > m then
         m = a[i]
-    END IF
+    end if
     i = i + 1
-END WHILE
-PRINT "Max:", m
-END */
+end while
+print "Max:", m
+
+ */
 #include <stdio.h>
 
 int main() {
-    int a[] = {55, 1, 99, 74, 60, 18}, m = a[0], i = 1;
-    for (; i < 6; i++)
-        if (a[i] > m) m = a[i];
-    printf("Max: %d\n", m);
+  int a[] = {55, 1, 99, 74, 60, 18}, m = a[0], i = 1;
+  for (; i < 6; i++)
+    if (a[i] > m)
+      m = a[i];
+  printf("Max: %d\n", m);
 }
